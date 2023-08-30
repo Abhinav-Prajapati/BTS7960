@@ -3,7 +3,7 @@ Arduino library to control the BTS7960 Dual H-Bridge, that can drive DC-Motor up
 
 ## Usage
 Then create an instance of the BTS7960 with two pins constructor
-With L-pwm and R-pwm hard wired to Vcc pin 
+With L-Enable and R-Enable hard wired to Vcc pin 
 ```
 BTS7960 motor1(L_PWM, R_PWM);
 ```
